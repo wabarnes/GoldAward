@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dxi-J7-V9v">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Inventory -->
+        <scene sceneID="ofT-rN-5rB">
+            <objects>
+                <viewController id="Rxx-p6-XtE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HnH-fM-LNk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIC-fO-ve3">
+                                <rect key="frame" x="99" y="318" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1"/>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ygl-rO-S5D">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Inventory" id="3Wz-sZ-MuE"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sgp-Ea-6C1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Inventory " image="icons8-i-25" selectedImage="icons8-i-25" id="7yG-Vw-Cv7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NVd-j6-l9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1166" y="1590"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="rUd-PP-9Kh">
+            <objects>
+                <viewController id="IDf-cV-5XU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Va-Oj-S75">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6W2-h9-IF3">
+                                <rect key="frame" x="76" y="318" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="3"/>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vYm-BQ-rQy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Settings" id="W2d-Kg-kvH"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OQw-Qy-Hye"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Cogwheel3" selectedImage="Cogwheel3" id="271-Rh-UJI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXP-IJ-w1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1890" y="1590"/>
+        </scene>
+        <!--Customers-->
+        <scene sceneID="B9c-df-fMU">
+            <objects>
+                <viewController id="1GT-qw-k8X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XBo-8w-GPY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XXy-cV-soe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Customers" id="KGh-TN-OKu">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="0vj-Zg-cPl"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oed-M4-HZP">
+                                <rect key="frame" x="186" y="389" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="O43-Ay-LL2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Customers" image="icons8-book-32" selectedImage="icons8-book-32" id="s1e-gh-9eJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gfd-7W-3kO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1888.8" y="926.98650674662679"/>
+        </scene>
+        <!--Sales-->
+        <scene sceneID="gGm-i0-eS0">
+            <objects>
+                <viewController id="PBo-m7-So6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kjn-lu-qG3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LF2-yU-1mR">
+                                <rect key="frame" x="139" y="318" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="0"/>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TdI-g0-yQL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Sales" id="ZKP-b0-oLn"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BrU-sH-oEE"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sales" image="icons8-coins-25" selectedImage="icons8-coins-25" id="1L2-7e-1RK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="709-Fo-V4z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1166" y="927"/>
+        </scene>
+        <!--Main Tab Bar View Controller-->
+        <scene sceneID="79q-QY-Q2G">
+            <objects>
+                <tabBarController id="dxi-J7-V9v" customClass="MainTabBarViewController" customModule="GoldAward" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BLo-zK-Ltt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PBo-m7-So6" kind="relationship" relationship="viewControllers" id="jsa-dU-plS"/>
+                        <segue destination="Rxx-p6-XtE" kind="relationship" relationship="viewControllers" id="m67-HJ-PAN"/>
+                        <segue destination="1GT-qw-k8X" kind="relationship" relationship="viewControllers" id="j0u-VX-Kzx"/>
+                        <segue destination="IDf-cV-5XU" kind="relationship" relationship="viewControllers" id="5JG-z3-yG8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3yA-iz-tuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212" y="1259"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cogwheel3" width="18.75" height="18.75"/>
+        <image name="icons8-book-32" width="24" height="24"/>
+        <image name="icons8-coins-25" width="18.75" height="18.75"/>
+        <image name="icons8-i-25" width="18.75" height="18.75"/>
+    </resources>
+</document>
