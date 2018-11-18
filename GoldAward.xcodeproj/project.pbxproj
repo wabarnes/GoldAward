@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A21C27E721728CF900D80605 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C27E621728CF900D80605 /* MainTabBarController.swift */; };
+		A24C217F21A0D8C100AC80CB /* SalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C217E21A0D8C100AC80CB /* SalesViewController.swift */; };
 		A2FCE2422164272800A3B6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FCE2412164272800A3B6D7 /* AppDelegate.swift */; };
-		A2FCE2442164272800A3B6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FCE2432164272800A3B6D7 /* ViewController.swift */; };
 		A2FCE2472164272800A3B6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FCE2452164272800A3B6D7 /* Main.storyboard */; };
 		A2FCE24A2164272800A3B6D7 /* GoldAward.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2FCE2482164272800A3B6D7 /* GoldAward.xcdatamodeld */; };
 		A2FCE24C2164272F00A3B6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FCE24B2164272F00A3B6D7 /* Assets.xcassets */; };
@@ -18,9 +18,9 @@
 
 /* Begin PBXFileReference section */
 		A21C27E621728CF900D80605 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A24C217E21A0D8C100AC80CB /* SalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewController.swift; sourceTree = "<group>"; };
 		A2FCE23E2164272800A3B6D7 /* GoldAward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldAward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FCE2412164272800A3B6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2FCE2432164272800A3B6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2FCE2462164272800A3B6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2FCE2492164272800A3B6D7 /* GoldAward.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoldAward.xcdatamodel; sourceTree = "<group>"; };
 		A2FCE24B2164272F00A3B6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,13 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A2FCE2412164272800A3B6D7 /* AppDelegate.swift */,
-				A2FCE2432164272800A3B6D7 /* ViewController.swift */,
 				A2FCE2452164272800A3B6D7 /* Main.storyboard */,
 				A21C27E621728CF900D80605 /* MainTabBarController.swift */,
 				A2FCE24B2164272F00A3B6D7 /* Assets.xcassets */,
 				A2FCE24D2164273000A3B6D7 /* LaunchScreen.storyboard */,
 				A2FCE2502164273100A3B6D7 /* Info.plist */,
 				A2FCE2482164272800A3B6D7 /* GoldAward.xcdatamodeld */,
+				A24C217E21A0D8C100AC80CB /* SalesViewController.swift */,
 			);
 			path = GoldAward;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2FCE2442164272800A3B6D7 /* ViewController.swift in Sources */,
 				A2FCE24A2164272800A3B6D7 /* GoldAward.xcdatamodeld in Sources */,
 				A21C27E721728CF900D80605 /* MainTabBarController.swift in Sources */,
 				A2FCE2422164272800A3B6D7 /* AppDelegate.swift in Sources */,
+				A24C217F21A0D8C100AC80CB /* SalesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
